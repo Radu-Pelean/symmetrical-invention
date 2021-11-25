@@ -17,6 +17,16 @@ html {
 }
 /* End of Common Styles */
 
+.writing {
+  margin-left: auto;
+  margin-top: auto;
+  display: block;
+  font-size: 300%;
+  opacity: 100%;
+  background-color: slategrey;
+  font-weight: 700;
+  font-display: hello;
+}
 /* mouse circle */
 .mouse-circle,
 .mouse-dot {
@@ -24,7 +34,7 @@ html {
   position: fixed;
   z-index: 300;
   transform: translate(-50%, -50%);
-}
+ }
 
 .mouse-circle {
   width: 5rem;
